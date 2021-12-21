@@ -1,0 +1,42 @@
+/*---------Navigation----------*/
+
+.navbar-brand {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.navbar-brand img {
+  height: 60px;
+  margin-left: 5px;
+  margin-right: 2px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+  color: #292929 !important;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#nav-bar ul li a:hover {
+  color: #949393 !important;
+}
+
+#navbarSupportedContent ul li a {
+  transition-duration: 0.6s;
+  position: relative;
+}
+
+.hori-selector {
+  display: inline-block;
+  position: absolute;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  background-color: rgb(245, 229, 27);
+  border-radius: 30px;
+}
